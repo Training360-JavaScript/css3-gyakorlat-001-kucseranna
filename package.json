@@ -1,0 +1,30 @@
+{
+  "name": "str2-css3-001",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npm i cypress && cypress install",
+    "cypress": "cypress run --headless --config integrationFolder=\"test-kvggcj/integration\",baseUrl=\"http://localhost:3111\"",
+    "test": "cd test-kvggcj && node cypress.js",
+    "test01": "cd test-kvggcj && node cypress.js 01",
+    "test02": "cd test-kvggcj && node cypress.js 02",
+    "test03": "cd test-kvggcj && node cypress.js 03",
+    "test04": "cd test-kvggcj && node cypress.js 04",
+    "test05": "cd test-kvggcj && node cypress.js 05"
+  },
+  "author": "cherry",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "concurrently": "^6.2.2",
+    "cypress": "^8.5.0",
+    "figlet": "^1.5.2",
+    "finalhandler": "^1.1.2",
+    "http-server": "^13.0.2",
+    "kill-port": "^1.6.1",
+    "serve-static": "^1.14.1"
+  }
+}
