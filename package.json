@@ -20,7 +20,7 @@
     "chalk": "^4.1.2",
     "clear": "^0.1.0",
     "concurrently": "^6.2.2",
-    "cypress": "^8.5.0",
+    "cypress": "^8.6.0",
     "figlet": "^1.5.2",
     "finalhandler": "^1.1.2",
     "http-server": "^13.0.2",
